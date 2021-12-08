@@ -1,0 +1,7 @@
+
+.index-bg {
+    background-image: url(https://au9999.zw-w.com/uploads/images/index_bg.jpg);
+    background-size: cover;
+	height: 230px;
+}
+

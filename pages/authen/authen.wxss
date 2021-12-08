@@ -1,0 +1,17 @@
+
+.authen-bg {
+    background-image: url(https://au9999.zw-w.com/uploads/images/authen_bg_b.jpg);
+    background-size: contain;
+	height: 148px;
+}
+.count {
+	position: absolute;
+	left: 10px;
+	bottom: 40px;
+}
+.authen-about-bg {
+    background-image: url(https://au9999.zw-w.com/uploads/images/authen_about_b.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+} 
+

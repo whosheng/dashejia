@@ -1,0 +1,40 @@
+
+.file-picker__box 
+{
+	width: 98% !important;
+	padding-top: 98% !important;
+}
+.is-input-border.data-v-abe12412 
+{
+	border-top: unset !important;
+	border-left: unset !important;
+	border-right: unset !important;
+	border-radius: unset !important;
+	border-color: unset !important;
+	border-bottom: 1px solid #eee !important;
+	text-align: right;
+}
+.is-textarea.data-v-abe12412 
+{
+	border: 1px solid #eee !important;
+	border-radius: 8px !important;
+	text-align: left;
+}
+.uni-forms-item__label.data-v-61dfc0d0 
+{
+	border-bottom: 1px solid #eee !important;
+	width: 85px !important;
+}
+.uni-easyinput__content-input.data-v-abe12412 
+{
+	padding-right: 10px !important;
+}
+.uni-forms-item__label .label-text.data-v-61dfc0d0 {
+	font-size: 14px !important;
+}
+.uni-easyinput__content-textarea.data-v-abe12412 
+{
+	padding:25px !important;
+	font-size: 12px !important;
+}
+

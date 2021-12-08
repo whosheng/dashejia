@@ -1,0 +1,23 @@
+
+.is-input-border.data-v-abe12412 
+{
+	border-top: unset !important;
+	border-left: unset !important;
+	border-right: unset !important;
+	border-radius: unset !important;
+	border-color: unset !important;
+	border-bottom: 1px solid #f8f8f8 !important;
+	text-align: right;
+}
+.uni-forms-item__label.data-v-61dfc0d0 
+{
+	border-bottom: 1px solid #f8f8f8 !important;
+}
+.uni-easyinput__content-input.data-v-abe12412 
+{
+	padding-right: 10px !important;
+}
+.uni-forms-item__label .label-text.data-v-61dfc0d0 {
+	font-size: 14px !important;
+}
+
