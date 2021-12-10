@@ -1,0 +1,23 @@
+
+.line-h-30{
+	line-height: 30px;
+}
+.uni-card .uni-card__header {
+border-bottom: unset !important;
+}
+.uni-card .uni-card__header .uni-card__header-avatar {
+	width: 60px !important;
+	height: 60px !important;
+	margin-right: 20px !important;
+}
+.uni-card .uni-card__header .uni-card__header-avatar .uni-card__header-avatar-image {
+	width: 60px !important;
+	height: 60px !important;
+}
+.uni-card .uni-card__header .uni-card__header-extra .uni-card__header-extra-text {
+	color: #00CEC9 !important;
+}
+.uni-card .uni-card__content {
+	padding-top:unset;
+}
+

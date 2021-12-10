@@ -1,0 +1,92 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx84aea1698435c2de",
+  "projectname": "DASHEJIA",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "mine",
+          "query": "",
+          "id": 0,
+          "pathName": "pages/mine/mine"
+        },
+        {
+          "name": "orders",
+          "query": "",
+          "id": 1,
+          "pathName": "pages/mine/orders/orders"
+        },
+        {
+          "name": "address",
+          "query": "",
+          "id": 2,
+          "pathName": "pages/mine/address/address"
+        },
+        {
+          "name": "banks",
+          "query": "",
+          "id": 3,
+          "pathName": "pages/mine/banks/banks"
+        },
+        {
+          "name": "help",
+          "query": "",
+          "id": 4,
+          "pathName": "pages/mine/help/help"
+        },
+        {
+          "name": "authen",
+          "query": "",
+          "id": 5,
+          "pathName": "pages/authen/authen"
+        },
+        {
+          "name": "index",
+          "query": "",
+          "id": 6,
+          "pathName": "pages/index/index"
+        },
+        {
+          "name": "recovery",
+          "query": "",
+          "id": 7,
+          "pathName": "pages/recovery/recovery"
+        },
+        {
+          "name": "bagform",
+          "query": "brandname=宝格丽(Bvlgari)",
+          "id": 8,
+          "pathName": "pages/recovery/bag/bagform/bagform"
+        },
+        {
+          "name": "bag",
+          "query": "",
+          "id": 9,
+          "pathName": "pages/recovery/bag/bag"
+        }
+      ]
+    }
+  }
+}
