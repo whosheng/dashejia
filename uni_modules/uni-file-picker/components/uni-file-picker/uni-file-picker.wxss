@@ -28,9 +28,9 @@
 	justify-content: center;
 }
 .icon-add {
-	width: 50px;
-	height: 5px;
-	background-color: #f1f1f1;
+	width: 35px;
+	height: 3px;
+	background-color: #00cec9;
 	border-radius: 2px;
 }
 .rotate {

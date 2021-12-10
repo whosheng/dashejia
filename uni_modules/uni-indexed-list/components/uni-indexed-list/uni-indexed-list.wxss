@@ -4,7 +4,7 @@
 .uni-indexed-list.data-v-0f58ddf9 {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 48px;
   right: 0;
   bottom: 0;
   display: flex;
@@ -34,7 +34,7 @@
   width: 16px;
   height: 16px;
   line-height: 16px;
-  background-color: #007aff;
+  background-color: #00CEC9;
   color: #fff;
 }
 .uni-indexed-list__alert-wrapper.data-v-0f58ddf9 {
@@ -56,6 +56,6 @@
   line-height: 80px;
   font-size: 35px;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 206, 201, 0.5);
 }
 

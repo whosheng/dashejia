@@ -59,9 +59,9 @@
   justify-content: center;
 }
 .icon-add {
-  width: 50px;
-  height: 5px;
-  background-color: #f1f1f1;
+  width: 35px;
+  height: 3px;
+  background-color: #00cec9;
   border-radius: 2px;
 }
 .rotate {
@@ -86,8 +86,21 @@
 }
 .icon-del {
   width: 15px;
-  height: 2px;
+  height: 1px;
   background-color: #fff;
-  border-radius: 2px;
+  border-radius: 1px;
+}
+.file-bgimg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* margin: 5px; */
+  border-radius: 3px;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: 215rpx !important;
 }
 

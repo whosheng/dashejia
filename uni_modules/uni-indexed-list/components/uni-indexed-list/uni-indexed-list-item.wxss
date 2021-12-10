@@ -16,6 +16,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #F1F1F1;
 }
 .uni-indexed-list__item-container.data-v-f3e68ed2 {
   padding-left: 15px;
@@ -28,7 +31,7 @@
   align-items: center;
 }
 .uni-indexed-list__item-border.data-v-f3e68ed2 {
-  flex: 1;
+  /* flex: 1; */
   position: relative;
   display: flex;
   box-sizing: border-box;
@@ -36,11 +39,8 @@
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  padding: 25px;
+  padding: 30px;
   padding-left: 0;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #DEDEDE;
 }
 .uni-indexed-list__item-border--last.data-v-f3e68ed2 {
   border-bottom-width: 0px;

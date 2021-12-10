@@ -77,6 +77,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return recyclableRender; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
 var components
+try {
+  components = {
+    uniEasyinput: function() {
+      return __webpack_require__.e(/*! import() | uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput */ "uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput.vue */ 187))
+    }
+  }
+} catch (e) {
+  if (
+    e.message.indexOf("Cannot find module") !== -1 &&
+    e.message.indexOf(".vue") !== -1
+  ) {
+    console.error(e.message)
+    console.error("1. 排查组件名称拼写是否正确")
+    console.error(
+      "2. 排查组件是否符合 easycom 规范，文档：https://uniapp.dcloud.net.cn/collocation/pages?id=easycom"
+    )
+    console.error(
+      "3. 若组件不符合 easycom 规范，需手动引入，并在 components 中注册该组件"
+    )
+  } else {
+    throw e
+  }
+}
 var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -115,6 +138,14 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var indexedListItem = function indexedListItem() {__webpack_require__.e(/*! require.ensure | uni_modules/uni-indexed-list/components/uni-indexed-list/uni-indexed-list-item */ "uni_modules/uni-indexed-list/components/uni-indexed-list/uni-indexed-list-item").then((function () {return resolve(__webpack_require__(/*! ./uni-indexed-list-item.vue */ 226));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
+
+
+
+
+
+
+
+
 
 
 
@@ -230,7 +261,8 @@ __webpack_require__.r(__webpack_exports__);
       scrollViewId: '',
       touchmovable: true,
       loaded: false,
-      isPC: false };
+      isPC: false,
+      searchRst: {} };
 
   },
   watch: {
@@ -246,37 +278,107 @@ __webpack_require__.r(__webpack_exports__);
 
 
     setTimeout(function () {
-      _this.setList();
+      //this.setList()
+      _this.search();
     }, 50);
+
+
+    //	console.log(this.setList())
     setTimeout(function () {
       _this.loaded = true;
     }, 300);
   },
   methods: {
-    setList: function setList() {var _this2 = this;
+    search: function search(val) {var _this2 = this;
+      console.log(val);
+
       var index = 0;
       this.lists = [];
       this.options.forEach(function (value, index) {
         if (value.data.length === 0) {
           return;
         }
+
+        if (null === val || undefined === val) {
+
+        }
+
+
+        _this2.searchRst = []; // 结果列表置空
+        var regStr = '';
+        // 初始化正则表达式
+        if (val)
+        {
+          for (var i = 0; i < val.length; i++) {
+            regStr = regStr + '(' + val[i] + ')([\\s]*)'; //跨字匹配
+          }
+        }
+
+        var reg = new RegExp(regStr);
+        //console.log(reg);
         var indexBefore = index;
-        var items = value.data.map(function (item) {
-          var obj = {};
-          obj['key'] = value.letter;
-          obj['name'] = item;
-          obj['itemIndex'] = index;
-          index++;
-          obj.checked = item.checked ? item.checked : false;
-          return obj;
-        });
+
+        for (var _i = 0; _i < value.data.length; _i++) {
+          var name = value.data[_i].zhname; //按照名字匹配
+          var regMatch = name.match(reg);
+
+          //  console.log(regMatch);
+
+          if (null !== regMatch) {// 将匹配的数据放入结果列表中
+            // this.searchRst.push(value.data[i]);
+            var obj = {};
+            obj['key'] = value.letter;
+            obj['logo'] = value.data[_i].logo;
+            obj['name'] = value.data[_i].zhname;
+            obj['enname'] = value.data[_i].enname;
+            obj['itemIndex'] = index;
+            index++;
+            obj.checked = value.data[_i].checked ? value.data[_i].checked : false;
+            //return obj
+            _this2.searchRst.push(obj);
+
+          }
+
+
+        }
+        //	console.log(this.searchRst);
         _this2.lists.push({
           title: value.letter,
           key: value.letter,
-          items: items,
+          items: _this2.searchRst,
           itemIndex: indexBefore });
 
+
+        /* 				
+                                     					
+                                     				let items = value.data.map(item => {
+                                     						let obj = {}
+                                     						obj['key'] = value.letter
+                                     						obj['logo'] = item.logo
+                                     						obj['name'] = item.zhname
+                                     						obj['enname'] = item.enname
+                                     						obj['itemIndex'] = index
+                                     						index++
+                                     						obj.checked = item.checked ? item.checked : false
+                                     						return obj
+                                     					}) 
+                                     					
+                                     					this.lists.push({
+                                     						title: value.letter,
+                                     						key: value.letter,
+                                     						items: items,
+                                     						itemIndex: indexBefore
+                                     					})				
+                                     	
+                                     					console.log(items);
+                                     					 */
+
+
+
+
       });
+
+
 
       uni.createSelectorQuery().
       in(this).
@@ -296,6 +398,54 @@ __webpack_require__.r(__webpack_exports__);
 
 
     },
+
+    setList: function setList() {var _this3 = this;
+      var index = 0;
+      this.lists = [];
+      this.options.forEach(function (value, index) {
+        if (value.data.length === 0) {
+          return;
+        }
+        var indexBefore = index;
+        var items = value.data.map(function (item) {
+          var obj = {};
+          obj['key'] = value.letter;
+          obj['logo'] = item.logo;
+          obj['name'] = item.zhname;
+          obj['enname'] = item.enname;
+          obj['itemIndex'] = index;
+          index++;
+          obj.checked = item.checked ? item.checked : false;
+          return obj;
+        });
+        _this3.lists.push({
+          title: value.letter,
+          key: value.letter,
+          items: items,
+          itemIndex: indexBefore });
+
+      });
+
+
+      uni.createSelectorQuery().
+      in(this).
+      select('#list').
+      boundingClientRect().
+      exec(function (ret) {
+        _this3.winOffsetY = ret[0].top;
+        _this3.winHeight = ret[0].height;
+        _this3.itemHeight = _this3.winHeight / _this3.lists.length;
+      });
+
+
+
+
+
+
+
+
+    },
+
     touchStart: function touchStart(e) {
       this.touchmove = true;
       var pageY = this.isPC ? e.pageY : e.touches[0].pageY;
@@ -366,7 +516,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-    onClick: function onClick(e) {var _this3 = this;var
+    onClick: function onClick(e) {var _this4 = this;var
 
       idx =
 
@@ -382,8 +532,8 @@ __webpack_require__.r(__webpack_exports__);
           value.items.forEach(function (item, index) {
             if (item.checked) {
               var _obj = {};
-              for (var _key in _this3.lists[idx].items[index]) {
-                _obj[_key] = _this3.lists[idx].items[index][_key];
+              for (var _key in _this4.lists[idx].items[index]) {
+                _obj[_key] = _this4.lists[idx].items[index][_key];
               }
               select.push(_obj);
             }
