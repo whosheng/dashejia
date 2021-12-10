@@ -163,320 +163,198 @@ var _default =
 {
   data: function data() {
     return {
-      list: [{
+      list: [
+      {
+        "letter": "Hot",
+        "data": [
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_10.png",
+          "zhname": "面对疾风吧",
+          "enname": "Face the wind" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_2.jpg",
+          "zhname": "阿玛尼牛仔-H",
+          "enname": "ARMANI JEANS" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_7.jpg",
+          "zhname": "亚历山大麦昆 -H",
+          "enname": "Alexander McQueen" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_8.jpg",
+          "zhname": "阿玛尼牛仔-H",
+          "enname": "ARMANI JEANS" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_9.jpg",
+          "zhname": "亚历山大•王-H",
+          "enname": "ALEXANDER WANG" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_1.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_3.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_4.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_5.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_6.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_9.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_1.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" }] },
+
+
+
+
+
+      {
         "letter": "A",
         "data": [
-        "ANDREA INCONTRI",
-        "ALAIA",
-        "ARMANI EXCHANGE",
-        "ANYA HINDMARCH",
-        "阿迪达斯三叶草(adidas originals)",
-        "ACNE STUDIOS",
-        "A COLD WALL",
-        "阿玛尼牛仔 (ARMANI JEANS)",
-        "Aspinal of London",
-        "A.P.C.",
-        "AMBUSH",
-        "阿迪达斯(adidas)",
-        "ASSC",
-        "亚历山大麦昆 (Alexander McQueen)",
-        "亚历山大•王(ALEXANDER WANG)"] },
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_10.png",
+          "zhname": "面对疾风吧",
+          "enname": "Face the wind" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_2.jpg",
+          "zhname": "伊泽瑞尔",
+          "enname": "ARMANI JEANS" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_7.jpg",
+          "zhname": "剑圣",
+          "enname": "Alexander McQueen" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_8.jpg",
+          "zhname": "阿玛尼牛仔",
+          "enname": "ARMANI JEANS" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_9.jpg",
+          "zhname": "亚历山大•王",
+          "enname": "ALEXANDER WANG" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_1.jpg",
+          "zhname": "卡地亚",
+          "enname": "COLD WALL" }] },
+
+
+
+
 
 
       {
         "letter": "B",
         "data": [
-        "博柏利(BURBERRY)",
-        "葆蝶家(Bottega Veneta)",
-        "巴黎世家 (Balenciaga)",
-        "宝格丽(Bvlgari)",
-        "BRUNELLO CUCINELLI",
-        "波士(BOSS)",
-        "Building Block",
-        "BOY LONDON",
-        "伯尔鲁帝 (Berluti)",
-        "BOYY",
-        "BY FAR",
-        "布兰施(Braun Buffel)",
-        "巴利(BALLY)"] },
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_3.jpg",
+          "zhname": "博柏利",
+          "enname": "BURBERRY" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_4.jpg",
+          "zhname": "葆蝶家",
+          "enname": "Bottega Veneta" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_5.jpg",
+          "zhname": "巴黎世家",
+          "enname": "Balenciaga" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_6.jpg",
+          "zhname": "葆蝶家",
+          "enname": "Bottega Veneta" }] },
+
+
 
 
       {
         "letter": "C",
         "data": [
-        "香奈儿(Chanel)",
-        "克克洛伊(CHLOE)",
-        "lOt",
-        "赛琳(CELINE)",
-        "蔻驰(COACH)",
-        "Carre Royal",
-        "CA&LOU",
-        "卡尔文 •克莱因(Calvin Klein)",
-        "CULT GAIA",
-        "川久保玲(Comme des Garcons)",
-        "卓诺迪xa01881(CERRUTI 1881)",
-        "chictoo",
-        "初弎(chusan)",
-        "琪亚拉•法拉格尼 (CHIARA FERRAGNI)",
-        "可奇奈尔 (COCCINELLE)",
-        "Charles Berkeley",
-        "克里斯提鲁布托(Christian Louboutin)",
-        "Champion"] },
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_10.png",
+          "zhname": "面对疾风吧",
+          "enname": "Face the wind" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_2.jpg",
+          "zhname": "阿玛尼牛仔",
+          "enname": "ARMANI JEANS" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_7.jpg",
+          "zhname": "亚历山大麦昆 ",
+          "enname": "Alexander McQueen" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_8.jpg",
+          "zhname": "阿玛尼牛仔",
+          "enname": "ARMANI JEANS" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_9.jpg",
+          "zhname": "亚历山大•王",
+          "enname": "ALEXANDER WANG" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_1.jpg",
+          "zhname": "卡地亚",
+          "enname": "COLD WALL" }] },
+
 
 
       {
         "letter": "D",
         "data": [
-        "迪奥(DIOR)",
-        "迪奥桀傲(Dior Homme)",
-        "D二次方(Dsquared2)",
-        "DRACONITE",
-        "Dickies",
-        "DANSE LENTE",
-        "迪赛(DIESEL)"] },
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_3.jpg",
+          "zhname": "博柏利",
+          "enname": "aaa" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_4.jpg",
+          "zhname": "葆蝶家",
+          "enname": "bbb" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_5.jpg",
+          "zhname": "巴黎世家",
+          "enname": "ccc" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_6.jpg",
+          "zhname": "葆蝶家",
+          "enname": "ddd" }] }] };
 
 
-      {
-        "letter": "E",
-        "data": [
-        "安普里奥阿玛尼(Emporio Armani)",
-        "艾特罗(Etro)",
-        "ELLE",
-        "EA7"] },
-
-
-      {
-        "letter": "F",
-        "data": [
-        "芬迪(FENDI)",
-        "斐乐(FILA)",
-        "北极狐(FJALLRAVEN)"] },
-
-
-      {
-        "letter": "G",
-        "data": [
-        "古驰(GUCCI)",
-        "Ganni",
-        "GOLDEN GOOSE DELUXE BRAND",
-        "GRANITE GEAR",
-        "高雅德(GOYARD)",
-        "朱塞佩•萨诺第(Giuseppe Zanotti)",
-        "GCDS",
-        "闪电潮牌(GENANX)",
-        "盖尔斯(Guess)",
-        "古由卡 (GUUKA)",
-        "纪梵希(Givenchy)"] },
-
-
-      {
-        "letter": "H",
-        "data": [
-        "爱马仕(HERMES)",
-        "HERON PRESTON",
-        "危机4 (Hazard4)",
-        "House of Avenues",
-        "兩果博斯(HUGO BOSS)",
-        "HOGAN"] },
-
-
-      {
-        "letter": "I",
-        "data": [
-        "INDIVI",
-        "ISABEL MARANT",
-        "三字一生 (ssey Miyake)"] },
-
-
-      {
-        "letter": "J",
-        "data": [
-        "J.W. Anderson",
-        "Jacquemus",
-        "吉尔•桑达(Jil Sander)",
-        "周仰杰 (Jimmy Choo)"] },
-
-
-      {
-        "letter": "K",
-        "data": [
-        "凯特 •丝蓓(Kate Spade)",
-        "卡尔•拉格斐(KARL LAGERFELD)",
-        "高田贤三(kenzo)"] },
-
-
-      {
-        "letter": "L",
-        "data": [
-        "路易威登(Louis Vuitton)",
-        "罗意威(LOEWE)",
-        "Liberty",
-        "Leather satchel",
-        "Love Moschino",
-        "LANCASTER",
-        "露露姬妮斯(LULU GUINNESS)",
-        "les petits joueurs",
-        "兰姿(LANCEL)",
-        "乐上 (LEXON)",
-        "浪凡(Lanvin)",
-        "珑骧(Longchamp)"] },
-
-
-      {
-        "letter": "M",
-        "data": [
-        "缪缪(Miu Miu)",
-        "MCM",
-        "Moynat",
-        "MANURINA",
-        "Moncler Genius",
-        "Marc by Marc Jacobs",
-        "梦乐 (MoonRock)",
-        "MSGM",
-        "麦丝玛拉 (MaxMara)",
-        "MM6",
-        "MICHAEL MICHAEL KORS",
-        "MARCELO BURLON COUNTY OF MILAN",
-        "Meli Melo",
-        "Mansur Gavriel",
-        "MANU ATELIER",
-        "MCQ ALEXANDER MCQUEEN",
-        "蒙克莱(Moncler)",
-        "玛百莉(Mulberry)",
-        "Mason Margiela",
-        "马克雅各布斯(Marc Jacobs)",
-        "玛尼(MARNI)",
-        "莫斯奇诺(MOSCHINO)",
-        "迈克 •科尔斯(Michael Kors)"] },
-
-
-      {
-        "letter": "N",
-        "data": [
-        "N°21",
-        "niels peeraer",
-        "尼奥 • 贝奈特(NEIL BARRETT)",
-        "耐克 (NIKE)"] },
-
-
-
-      {
-        "letter": "O",
-        "data": [
-        "OFF-WHITE"] },
-
-
-      {
-        "letter": "P",
-        "data": [
-        "普拉达(PRADA)",
-        "PS. MARY JANE",
-        "PERRIN PARIS",
-        "帕科(Paco Rabanne)",
-        "柏翠莎 佩佩(Patrizia Pepe)",
-        "PAUL SMITH",
-        "PIERRE HARDY",
-        "普瑞米亚达(PREMIATA)",
-        "PALM ANGELS",
-        "PB 0110",
-        "普罗恩萨 •施罗(PROENZA SCHOULER)",
-        "菲利普 •普兰 (PHILIPP PLEIN)",
-        "PLEIN SPORT",
-        "品高(Pinko)"] },
-
-
-      {
-        "letter": "R",
-        "data": [
-        "Rokssanda",
-        "Red Valentino",
-        "瑞克 •欧文斯 (Rick Owens)",
-        "拉夫劳伦(RALPH LAUREN)",
-        "罗杰•维维亚 (Roger Vivier)",
-        "蕾德莉(Radley)"] },
-
-
-
-      {
-        "letter": "S",
-        "data": [
-        "菲拉格慕(Salvatore Ferragamo)",
-        "SOPHIA WEBSTER",
-        "SPRAYGROUND",
-        "SALAR",
-        "Senreve",
-        "Simon Miller",
-        "丝黛拉麦卡妮 (Stella McCartney)",
-        "(SAINTJOY)",
-        "see by chloe",
-        "史蒂芬劳•尼治 (Stefano Ricci)",
-        "索菲休姆(SOPHIE HULME)",
-        "SAINT LAURENT PARIS"] },
-
-
-
-      {
-        "letter": "T",
-        "data": [
-        "菊池武夫(TAKEO KIKUCHI)",
-        "THE SHOP TK",
-        "汤姆福特(Tom Ford)",
-        "TWIN-SET",
-        "The Row",
-        "北面(THE NORTH FACE)",
-        "TWINSET",
-        "Ted Baker",
-        "THOM BROWNE",
-        "途明(TUM)",
-        "托德斯 (Tod's)",
-        "蒂芙尼(Tiffany)"] },
-
-
-
-      {
-        "letter": "U",
-        "data": [
-        "UNION OBJET",
-        "Undercover"] },
-
-
-      {
-        "letter": "V",
-        "data": [
-        "VETEMENTS",
-        "VVC",
-        "范思哲(VERSACE)",
-        "薇薇安威斯特伍德(Vivienne Westwood)",
-        "范思哲牛仔 (VERSACE JEANS)",
-        "微缇 (voyagetime)",
-        "VISONE",
-        "VERSUS",
-        "VERSACE COLLECTION",
-        "VALEXTRA",
-        "VERSACE JEANS COUTURE"] },
-
-
-
-      {
-        "letter": "W",
-        "data": [
-        "WANDLER"] },
-
-
-
-
-      {
-        "letter": "Y",
-        "data": [
-        "YUZEFI",
-        "Y-3"] },
-
-
-
-      {
-        "letter": "Z",
-        "data": [
-        "ZANELLATO"] }] };
 
 
 

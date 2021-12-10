@@ -163,70 +163,196 @@ var _default =
 {
   data: function data() {
     return {
-      list: [{
+      list: [
+      {
+        "letter": "Hot",
+        "data": [
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_10.png",
+          "zhname": "长路漫漫，唯剑作伴",
+          "enname": "A sword's poor company for a long road." },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_2.jpg",
+          "zhname": "阿玛尼牛仔-H",
+          "enname": "ARMANI JEANS" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_7.jpg",
+          "zhname": "亚历山大麦昆 -H",
+          "enname": "Alexander McQueen" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_8.jpg",
+          "zhname": "阿玛尼牛仔-H",
+          "enname": "ARMANI JEANS" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_9.jpg",
+          "zhname": "亚历山大•王-H",
+          "enname": "ALEXANDER WANG" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_1.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_3.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_4.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_5.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_6.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_9.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_1.jpg",
+          "zhname": "卡地亚-H",
+          "enname": "COLD WALL" }] },
+
+
+
+
+
+      {
         "letter": "A",
         "data": [
-        "死亡如风，常伴吾身",
-        "Death is like the wind; always by my side.",
-        "长路漫漫，唯剑作伴",
-        "A sword's poor company for a long road.",
-        "吾之荣耀，离别已久",
-        "My honor left a long time ago."] },
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_10.png",
+          "zhname": "吾虽浪迹天涯，却未迷失本心",
+          "enname": "A wanderer isn't always lost." },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_2.jpg",
+          "zhname": "且随疾风前行，身后亦须留心",
+          "enname": "Follow the wind, but watch your back." },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_7.jpg",
+          "zhname": "亚历山大麦昆 ",
+          "enname": "Alexander McQueen" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_8.jpg",
+          "zhname": "阿玛尼牛仔",
+          "enname": "ARMANI JEANS" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_9.jpg",
+          "zhname": "亚历山大•王",
+          "enname": "ALEXANDER WANG" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_1.jpg",
+          "zhname": "卡地亚",
+          "enname": "COLD WALL" }] },
+
+
+
 
 
 
       {
         "letter": "B",
         "data": [
-        "明日安在，无人能允",
-        "No-one is promised tomorrow.",
-        "且随疾风前行，身后亦须留心",
-        "Follow the wind, but watch your back.",
-        "此剑之势，愈斩愈烈",
-        "This blade never gets any lighter."] },
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_3.jpg",
+          "zhname": "博柏利",
+          "enname": "BURBERRY" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_4.jpg",
+          "zhname": "葆蝶家",
+          "enname": "Bottega Veneta" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_5.jpg",
+          "zhname": "巴黎世家",
+          "enname": "Balenciaga" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_6.jpg",
+          "zhname": "葆蝶家",
+          "enname": "Bottega Veneta" }] },
+
 
 
 
       {
         "letter": "C",
         "data": [
-        "仁义道德，也是一种奢侈",
-        "Virtue is no more than a luxury.",
-        "灭亡之路，短的超乎你的想象",
-        "The road to ruin is shorter than you think.",
-        "无罪之人，方可安睡",
-        "Sleep is for the guiltless."] },
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_10.png",
+          "zhname": "面对疾风吧",
+          "enname": "Face the wind" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_2.jpg",
+          "zhname": "阿玛尼牛仔",
+          "enname": "ARMANI JEANS" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_7.jpg",
+          "zhname": "亚历山大麦昆 ",
+          "enname": "Alexander McQueen" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_8.jpg",
+          "zhname": "阿玛尼牛仔",
+          "enname": "ARMANI JEANS" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_9.jpg",
+          "zhname": "亚历山大•王",
+          "enname": "ALEXANDER WANG" },
+
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_1.jpg",
+          "zhname": "卡地亚",
+          "enname": "COLD WALL" }] },
 
 
 
       {
         "letter": "D",
         "data": [
-        "正义，好个冠冕堂皇之词",
-        "Justice. That's a pretty word.",
-        "回首往昔，更进一步",
-        "Hmph. One step ahead of the past.",
-        "Dickies",
-        "DANSE LENTE",
-        "迪赛(DIESEL)"] },
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_3.jpg",
+          "zhname": "博柏利",
+          "enname": "BURBERRY" },
 
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_4.jpg",
+          "zhname": "葆蝶家",
+          "enname": "Bottega Veneta" },
 
-      {
-        "letter": "E",
-        "data": [
-        "吾虽浪迹天涯，却未迷失本心。",
-        "A wanderer isn't always lost.",
-        "我还在寻找回家的路",
-        "Just looking for a road home."] },
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_5.jpg",
+          "zhname": "巴黎世家",
+          "enname": "Balenciaga" },
 
+        {
+          "logo": "https://au9999.zw-w.com/uploads/images/logo_6.jpg",
+          "zhname": "葆蝶家",
+          "enname": "Bottega Veneta" }] }] };
 
-      {
-        "letter": "F",
-        "data": [
-        "不可久留于一处",
-        "Never could stay in one place.",
-        "将遵循此道，直至终结",
-        "I will follow this path until the end."] }] };
 
 
 

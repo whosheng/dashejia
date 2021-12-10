@@ -332,11 +332,63 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
+//
+//
+//
 var _default =
 {
   data: function data() {
     return {
-      brandname: '' };
+      brandname: '',
+      imageStylesa: {
+        background: {
+          url: "https://au9999.zw-w.com/uploads/images/watch_a.jpg" },
+
+        border: {
+          color: "#ff5a5f",
+          style: 'dashed' } },
+
+
+      imageStylesb: {
+        background: {
+          url: "https://au9999.zw-w.com/uploads/images/watch_a.jpg" },
+
+        border: {
+          color: "#ff5a5f",
+          style: 'dashed' } },
+
+
+      imageStylesc: {
+        background: {
+          url: "https://au9999.zw-w.com/uploads/images/watch_a.jpg" },
+
+        border: {
+          color: "#ff5a5f",
+          style: 'dashed' } },
+
+
+      imageStylesd: {
+        background: {
+          url: "https://au9999.zw-w.com/uploads/images/watch_a.jpg" },
+
+        border: {
+          color: "#00cec9",
+          style: 'dashed' } },
+
+
+
+      imageStylese: {
+        background: {
+          url: "https://au9999.zw-w.com/uploads/images/watch_a.jpg" },
+
+        border: {
+          color: "#00cec9",
+          style: 'dashed' } } };
+
+
+
 
   },
   onLoad: function onLoad(e) {

@@ -326,31 +326,12 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 var _default =
 {
   data: function data() {
     return {
       current: 0,
-      tab: ['全部', '待估价', '估价完成', '鉴定中', '确认中', '已完成'] };
+      tab: ['全部', '鉴定中', '估价中', '待确认', '已完成'] };
 
   },
   onLoad: function onLoad(e) {
