@@ -79,6 +79,12 @@
           "query": "brandname=宝格丽(Bvlgari)",
           "id": 8,
           "pathName": "pages/recovery/bag/bagform/bagform"
+        },
+        {
+          "name": "bag",
+          "query": "",
+          "id": 9,
+          "pathName": "pages/recovery/bag/bag"
         }
       ]
     }
